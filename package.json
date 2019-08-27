@@ -1,0 +1,31 @@
+{
+  "name": "gestaodevendas",
+  "version": "1.0.0",
+  "description": "API para gestão de vendas",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwsouza/gestaodevendas.git"
+  },
+  "author": "Lucas William de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwsouza/gestaodevendas/issues"
+  },
+  "homepage": "https://github.com/lwsouza/gestaodevendas#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
